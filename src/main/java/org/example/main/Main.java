@@ -23,7 +23,7 @@ public class Main {
     public static void main(String[] args) throws IOException{
         int choice;
         Scanner sc=new Scanner(System.in);
-            while (true) {
+            do {
                 try
                 {
                 LOGGER.info("\n)Bank\n2)shape\n3)student\n4)singleton\n5)coordinates\n6)credit card\n7)Exception\n8)Studentdata\n9)Array,Arraylist,Linkedlist\n10)hashset,treeset,hashmap\n11)calculator\n12)studentcontacts using Linkedlist\n13)file operation \n14)Tictactoe game\n15)Exit");
@@ -31,8 +31,8 @@ public class Main {
                 choice = sc.nextInt();
                 if (choice == 1) {
                     Bank.execute();
-
-                } else if (choice == 2) {
+                }
+                else if (choice == 2) {
                     Shape.execute();
 
                 } else if (choice == 3) {
@@ -76,7 +76,7 @@ public class Main {
                 {
                    LOGGER.info("Please enter the  valid input only");
                 }
-        }
+        }while (true);
     }
 }
 
