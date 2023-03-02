@@ -1,4 +1,4 @@
-package example;
+package org.example.STUDENT_DATA;
 import java.util.logging.Logger;
 class Student{
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);

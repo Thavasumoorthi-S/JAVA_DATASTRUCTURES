@@ -1,4 +1,4 @@
-package example;
+package org.example.CALCULATOR;
 
 interface Operation
 {

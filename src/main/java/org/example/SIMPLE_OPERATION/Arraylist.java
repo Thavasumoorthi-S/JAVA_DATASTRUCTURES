@@ -1,4 +1,4 @@
-package example;
+package org.example.SIMPLE_OPERATION;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;

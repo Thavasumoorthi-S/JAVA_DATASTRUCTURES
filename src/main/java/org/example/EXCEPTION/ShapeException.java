@@ -1,5 +1,7 @@
-package org.example;
-import java.util.*;
+package org.example.EXCEPTION;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 class ShapeException
@@ -59,7 +61,7 @@ class ShapeException
         result=2*(Math.PI)*radius;
         return result;
     }
-    public static void main(String[] args)
+    public static void execute()
     {
         int choice;
         int length;

@@ -1,9 +1,23 @@
-package example;
-
+package org.example.MAIN;
+import org.example.BANK.Bank;
+import org.example.CALCULATOR.Calculator1;
+import org.example.CONTACT_DETAILS.Contact;
+import org.example.COORDINATES.Coordinates;
+import org.example.CREDITCARD.Creditcard;
+import org.example.FILE_OPERATION.Fileopds;
+import org.example.HASHING.Hashset;
+import org.example.SHAPE.Shape;
+import org.example.SIMPLE_OPERATION.LinkedList;
+import org.example.STUDENT_DATA.StudentTest;
+import org.example.STUDENT_DETAILS.Students;
+import org.example.Singleton.Singleton;
+import org.example.TICTAC.Games;
+import org.example.EXCEPTION.Exception;
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.logging.Logger;
+
 public class Main {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     public static void main(String[] args) throws IOException{
@@ -12,7 +26,7 @@ public class Main {
             while (true) {
                 try
                 {
-                LOGGER.info("\n)Bank\n2)shape\n3)student\n4)singleton\n5)coordinates\n6)credit card\n7)BankException\n8)Studentdata\n9)Array,Arraylist,Linkedlist\n10)hashset,treeset,hashmap\n11)calculator\n12)studentcontacts using Linkedlist\n13)file operation \n14)Tictactoe game\n15)Exit");
+                LOGGER.info("\n)Bank\n2)shape\n3)student\n4)singleton\n5)coordinates\n6)credit card\n7)Exception\n8)Studentdata\n9)Array,Arraylist,Linkedlist\n10)hashset,treeset,hashmap\n11)calculator\n12)studentcontacts using Linkedlist\n13)file operation \n14)Tictactoe game\n15)Exit");
                 LOGGER.info("Choose any one of the option in the above ");
                 choice = sc.nextInt();
                 if (choice == 1) {
@@ -31,8 +45,7 @@ public class Main {
                 } else if (choice == 6) {
                     Creditcard.execute();
                 } else if (choice == 7) {
-                    BankException.execute();
-
+                    Exception.Execute();
                 } else if (choice == 8) {
                     Students.execute();
                 } else if (choice == 9) {

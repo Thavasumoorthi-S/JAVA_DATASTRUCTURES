@@ -1,4 +1,4 @@
-package example;
+package org.example.STUDENT_DETAILS;
 
 import java.util.ArrayList;
 import java.util.Scanner;

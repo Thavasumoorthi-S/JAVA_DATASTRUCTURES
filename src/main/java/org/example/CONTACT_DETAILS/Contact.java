@@ -1,8 +1,9 @@
-package example;
+package org.example.CONTACT_DETAILS;
 
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 public class Contact
 {
     Logger logger=Logger.getLogger("com.api.jar");

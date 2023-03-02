@@ -1,7 +1,9 @@
-package org.example;
+package org.example.EXCEPTION;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.*;
 class BankException
 {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
@@ -33,9 +35,8 @@ class BankException
     {
         return balance;
     }
-    public static void main(String[] args)
+    public static void execute()
     {
-
         Scanner sc=new Scanner(System.in);
         String name;
         long accountno;

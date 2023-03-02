@@ -1,9 +1,10 @@
-package example;
+package org.example.Singleton;
 
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-class Singleton
+
+public class Singleton
 {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     private static Singleton singleton=null;

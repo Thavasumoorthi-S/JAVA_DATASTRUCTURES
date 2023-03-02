@@ -1,4 +1,4 @@
-package example;
+package org.example.FILE_OPERATION;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class Fileopds
 {
-    private  Fileopds()
+    private Fileopds()
     {
 
     }

@@ -1,9 +1,9 @@
-package example;
+package org.example.COORDINATES;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class Coordinates{
+public class Coordinates {
     private static final Logger LOGGER = Logger.getLogger("global");
     int x;
     int y;

@@ -1,15 +1,15 @@
-package example;
+package org.example.BANK;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class Bank
+public class Bank
 {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     String name;
     long accountno;
     int balance;
-    Bank(String name,long accountno,int balance)
+    Bank(String name, long accountno, int balance)
     {
         this.name=name;
         this.accountno=accountno;

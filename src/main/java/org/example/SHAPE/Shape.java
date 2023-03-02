@@ -1,8 +1,9 @@
-package example;
+package org.example.SHAPE;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-class Shape
+
+public class Shape
 {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     String type;
@@ -13,13 +14,13 @@ class Shape
     int side1;
     int side2;
     int base;
-    Shape(int length,int breadth,String type)
+    Shape(int length, int breadth, String type)
     {
         this.length=length;
         this.breadth=breadth;
         this.type=type;
     }
-    Shape(int breadth,int height,int side1,int side2,int base,String type)
+    Shape(int breadth, int height, int side1, int side2, int base, String type)
     {
         this.breadth=breadth;
         this.height=height;
@@ -28,7 +29,7 @@ class Shape
         this.base=base;
         this.type=type;
     }
-    Shape(int radius,String type)
+    Shape(int radius, String type)
     {
         this.radius=radius;
         this.type=type;

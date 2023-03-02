@@ -1,4 +1,4 @@
-package example;
+package org.example.TICTAC;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

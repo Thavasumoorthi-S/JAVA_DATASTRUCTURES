@@ -1,4 +1,4 @@
-package org.example;
+package org.example.EXCEPTION;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -25,7 +25,7 @@ class CoordinateException {
         return result;
     }
 
-    public static void main(String[] args)  {
+    public static void execute(){
         try {
             Scanner sc = new Scanner(System.in);
             LOGGER.log(Level.INFO, "Enter the value x:");

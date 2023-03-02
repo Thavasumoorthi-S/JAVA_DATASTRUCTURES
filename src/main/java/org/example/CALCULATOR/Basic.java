@@ -1,4 +1,4 @@
-package example;
+package org.example.CALCULATOR;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

@@ -1,15 +1,16 @@
-package example;
+package org.example.CREDITCARD;
 
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-class Creditcard
+
+public class Creditcard
 {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     String holdername;
     Long cardnumber;
     String expiredate;
-    Creditcard(String holdername,Long cardnumber,String expiredate)
+    Creditcard(String holdername, Long cardnumber, String expiredate)
     {
         this.holdername=holdername;
         this.cardnumber=cardnumber;

@@ -1,10 +1,10 @@
-package example;
+package org.example.HASHING;
 
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class Hashset {
+public class Hashset {
     String name;
     int id;
     Logger logger=Logger.getLogger("com-api-jar");

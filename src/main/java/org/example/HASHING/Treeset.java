@@ -1,4 +1,4 @@
-package example;
+package org.example.HASHING;
 
 import java.util.TreeSet;
 import java.util.logging.Level;

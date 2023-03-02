@@ -1,4 +1,4 @@
-package example;
+package org.example.STUDENT_DATA;
 
 import java.util.Scanner;
 import java.util.logging.Level;
