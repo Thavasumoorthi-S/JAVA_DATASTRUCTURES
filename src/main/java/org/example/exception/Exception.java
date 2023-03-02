@@ -16,7 +16,7 @@ public class Exception {
         int choice;
         while(true)
         {
-            LOGGER.info("\n1)BANK EXCEPTION \n2)Shape Exception \n3)Student Exception \n4)Creditcard Exception \n5)Coordinate Exception  \n6)Singleton Exception\n7)Exit");
+            LOGGER.info("\n1)BANK EXCEPTION \n2)Student Exception \n3)Creditcard Exception \n4)Coordinate Exception  \n5)Singleton Exception\n6)Exit");
             LOGGER.info("Choose any one of the option in the above");
             choice=sc.nextInt();
             if(choice==1)
@@ -25,25 +25,21 @@ public class Exception {
             }
             else if(choice==2)
             {
-                ShapeException.execute();
+                StudentException.execute();
             }
             else if(choice==3)
             {
-                StudentException.execute();
+                CreditcardException.execute();
             }
             else if(choice==4)
             {
-                CreditcardException.execute();
+                CoordinateException.execute();
             }
             else if(choice==5)
             {
-                CoordinateException.execute();
-            }
-            else if(choice==6)
-            {
                 SingletonException.execute();
             }
-            else if(choice==7)
+            else if(choice==6)
             {
                 break;
             }
