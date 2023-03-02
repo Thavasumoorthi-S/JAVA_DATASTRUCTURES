@@ -5,6 +5,11 @@ import java.util.logging.Logger;
 
 public class Exception {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+
+    private Exception()
+    {
+
+    }
     public static void execute()
     {
         Scanner sc=new Scanner(System.in);
