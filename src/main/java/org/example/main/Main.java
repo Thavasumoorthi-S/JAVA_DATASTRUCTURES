@@ -45,7 +45,7 @@ public class Main {
                 } else if (choice == 6) {
                     Creditcard.execute();
                 } else if (choice == 7) {
-                    Exception.Execute();
+                    Exception.execute();
                 } else if (choice == 8) {
                     Students.execute();
                 } else if (choice == 9) {
