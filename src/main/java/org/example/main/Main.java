@@ -14,7 +14,6 @@ import org.example.singleton.Singleton;
 import org.example.tictactoe.Games;
 import org.example.exception.Exception;
 import java.io.IOException;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
@@ -24,8 +23,6 @@ public class Main {
         int choice;
         Scanner sc=new Scanner(System.in);
             do {
-                try
-                {
                 LOGGER.info("\n)Bank\n2)shape\n3)student\n4)singleton\n5)coordinates\n6)credit card\n7)Exception\n8)Studentdata\n9)Array,Arraylist,Linkedlist\n10)hashset,treeset,hashmap\n11)calculator\n12)studentcontacts using Linkedlist\n13)file operation \n14)Tictactoe game\n15)Exit");
                 LOGGER.info("Choose any one of the option in the above ");
                 choice = sc.nextInt();
@@ -70,11 +67,6 @@ public class Main {
                 }
                 else{
                     LOGGER.info("please choose correct choice in the above");
-                }
-            }
-                catch (InputMismatchException e)
-                {
-                   LOGGER.info("Please enter the  valid input only");
                 }
         }while (true);
     }
