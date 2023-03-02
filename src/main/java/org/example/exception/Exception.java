@@ -4,10 +4,6 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class Exception {
-    private Exception()
-    {
-
-    }
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     public static void execute()
     {
