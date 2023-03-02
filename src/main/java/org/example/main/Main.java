@@ -32,39 +32,39 @@ public class Main {
                 if (choice == 1) {
                     Bank.execute();
                 }
-                else if (choice == 2) {
+                if (choice == 2) {
                     Shape.execute();
 
-                } else if (choice == 3) {
+                } if (choice == 3) {
                     StudentTest.execute();
-                } else if (choice == 4) {
+                } if (choice == 4) {
                     Singleton.execute();
-                } else if (choice == 5) {
+                } if (choice == 5) {
                     Coordinates.execute();
 
-                } else if (choice == 6) {
+                } if (choice == 6) {
                     Creditcard.execute();
-                } else if (choice == 7) {
+                } if (choice == 7) {
                     Exception.execute();
-                } else if (choice == 8) {
+                } if (choice == 8) {
                     Students.execute();
-                } else if (choice == 9) {
+                } if(choice == 9) {
                     LinkedList.execute();
-                } else if (choice == 10) {
+                } if(choice == 10) {
                     Hashset.excute();
 
-                } else if (choice == 11) {
+                } if (choice == 11) {
                     Calculator1.execute();
 
-                } else if (choice == 12) {
+                } if (choice == 12) {
                     Contact.execute();
-                } else if (choice == 13) {
+                } if (choice == 13) {
                     Fileopds.execute();
 
-                } else if (choice == 14) {
+                } if (choice == 14) {
                     Games.execute();
 
-                } else if(choice == 15) {
+                } if(choice == 15) {
                     LOGGER.info("Thank you ");
                     break;
                 }
