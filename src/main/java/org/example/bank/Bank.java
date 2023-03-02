@@ -1,4 +1,4 @@
-package org.example.BANK;
+package org.example.bank;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;

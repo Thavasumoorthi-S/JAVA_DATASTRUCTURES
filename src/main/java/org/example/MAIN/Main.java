@@ -1,5 +1,5 @@
 package org.example.MAIN;
-import org.example.BANK.Bank;
+import org.example.bank.Bank;
 import org.example.CALCULATOR.Calculator1;
 import org.example.CONTACT_DETAILS.Contact;
 import org.example.COORDINATES.Coordinates;

@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JAVA_DATASTRUCTURE:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c75cca-44a3-4518-bf5c-356f66a23dfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BANK/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CALCULATOR/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CALCULATOR/Calculator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CALCULATOR/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CONTACT_DETAILS/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CONTACT_DETAILS/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/COORDINATES/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CREDITCARD/Creditcard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EXCEPTION/BankException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EXCEPTION/CoordinateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EXCEPTION/CreditcardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EXCEPTION/Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EXCEPTION/ShapeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EXCEPTION/SingletonException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EXCEPTION/StudentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FILE_OPERATION/Fileopds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HASHING/Hashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HASHING/Hashset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HASHING/Treeset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MAIN/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SHAPE/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SIMPLE_OPERATION/Arraylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SIMPLE_OPERATION/Arrayoperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SIMPLE_OPERATION/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/STUDENT_DATA/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/STUDENT_DATA/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/STUDENT_DETAILS/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TICTAC/Games.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TICTAC/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TICTAC/Tictac.java" afterDir="false" />
-    </list>
+    <list default="true" id="f0c75cca-44a3-4518-bf5c-356f66a23dfc" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,6 +91,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677764901429</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1677769386202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677769386202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
