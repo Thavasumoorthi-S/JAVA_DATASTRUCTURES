@@ -30,46 +30,59 @@ public class Main {
                 {
                     case 1:
                         Bank.execute();
+                        break;
 
                     case 2:
                         Shape.execute();
+                        break;
 
                     case 3:
                         StudentTest.execute();
+                        break;
 
                     case 4:
                         Singleton.execute();
+                        break;
 
                     case 5:
                         Coordinates.execute();
+                        break;
 
                     case 6:
                         Creditcard.execute();
+                        break;
 
 
                     case 7:
                         Exception.execute();
+                        break;
                     case 8:
                         Students.execute();
+                        break;
 
                     case 9:
                         LinkedList.execute();
+                        break;
 
                     case 10:
                         Hashset.excute();
+                        break;
 
                     case 11:
                         Calculator1.execute();
+                        break;
 
                     case 12:
                         Contact.execute();
-
+                        break;
 
                     case 13:
                         Fileopds.execute();
+                        break;
 
                     case 14:
                         Games.execute();
+                        break;
 
                     default:
                         LOGGER.info("please enter valid input");
